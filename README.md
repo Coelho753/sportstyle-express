@@ -1,14 +1,28 @@
-# Welcome to your Lovable project
+# SportStyle Express
+
+1. Loja online de roupas esportivas
+
+● Canais atuais: Instagram, WhatsApp e site.
+
+● Problemas: grande volume de pedidos; clientes reclamam da demora
+
+nas respostas; trocas e reembolsos demoram mais de 7 dias para serem
+
+analisados.
+
+
+
+Foque no site()
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/76818a9a-4e85-4b94-a555-f6b3d68c6432).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +34,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
