@@ -13,12 +13,12 @@ export const Route = createFileRoute("/ajuda")({
 });
 
 const faq = [
-  ["Qual o prazo de entrega?", "De 3 a 7 dias úteis, conforme a região. Acompanhe em “Meu pedido”."],
+  ["Qual o prazo de entrega?", "Postamos seu pedido em até 24h após a confirmação do pagamento. Por causa da alta demanda, entregas no estado de São Paulo levam até 7 dias; para os demais estados, até 14 dias. Acompanhe em “Meu pedido”."],
   ["Como escolher o tamanho?", "Cada produto tem tabela de medidas. Na dúvida, peça um tamanho acima para peças de compressão."],
   ["Quais formas de pagamento?", "Pix (5% off), cartão em até 6x sem juros e boleto."],
   ["Como faço uma troca?", "Na página “Trocas”, informe o pedido e o motivo. Você recebe um protocolo e a etiqueta de envio grátis."],
-  ["Quando recebo meu reembolso?", "A análise leva até 5 dias úteis após recebermos o produto. Pix: 1 dia; cartão: próxima fatura."],
-  ["Não resolveu. Com quem falo?", "WhatsApp (resposta em até 2h) ou telefone para casos urgentes. Informe seu protocolo."],
+  ["Quando recebo meu reembolso?", "Temos uma equipe dedicada a reembolsos: a análise leva até 5 dias úteis após recebermos o produto. Pix: 1 dia; cartão: próxima fatura."],
+  ["Não resolveu. Com quem falo?", "Temos uma nova equipe estruturada só para acompanhamento no WhatsApp e no Instagram, incluindo ajuda com reembolso. Informe seu protocolo para agilizar."],
 ];
 
 function Help() {
@@ -38,7 +38,7 @@ function Help() {
       </div>
       <div className="mt-10 rounded-md bg-accent p-5 text-accent-foreground">
         <p className="font-display text-3xl">Ainda precisa de ajuda?</p>
-        <p className="mt-1 text-sm">💬 WhatsApp: resposta em até 2h · ☎️ Telefone para urgências: (11) 4000-0000</p>
+        <p className="mt-1 text-sm">💬 WhatsApp ou 📸 Instagram: nossa equipe dedicada acompanha seu pedido e ajuda com reembolsos. Tenha o protocolo em mãos.</p>
       </div>
     </div>
   );
