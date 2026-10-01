@@ -42,7 +42,7 @@ function Index() {
           {products.map((p, i) => (
             <article key={p.id} className="group overflow-hidden rounded-md border border-border bg-card">
               <div className="flex aspect-square items-center justify-center bg-secondary">
-                <span className={`font-display text-7xl ${i % 2 ? "text-accent" : "text-primary"} transition-transform group-hover:scale-110`}>{p.name.split(" ")[0][0]}{p.name.split(" ")[1][0]}</span>
+                <span className={`font-display text-7xl ${i % 2 ? "text-accent" : "text-primary"} transition-transform group-hover:scale-110`}>{p.name.split(" ").map((w) => w[0]).join("")}</span>
               </div>
               <div className="p-3">
                 <p className="text-xs uppercase tracking-wider text-muted-foreground">{p.tag}</p>
