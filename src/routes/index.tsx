@@ -55,11 +55,12 @@ function Index() {
       </section>
 
       <section className="bg-primary text-primary-foreground">
-        <div className="mx-auto grid max-w-6xl gap-6 px-4 py-12 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-6xl gap-6 px-4 py-12 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            ["⏱️ 2h", "Prazo máximo de resposta no WhatsApp"],
-            ["📋 Protocolo", "Toda troca/reembolso ganha um número para acompanhar"],
-            ["🔄 Até 5 dias", "Análise de trocas e reembolsos (antes: 7+)"],
+            ["🚚 24h", "Postagem do produto em até 24h após a confirmação do pagamento"],
+            ["📍 Até 7 dias", "Entregas no estado de São Paulo (alta demanda). Demais estados: até 14 dias"],
+            ["💬 Equipe dedicada", "Nova equipe só para acompanhamento no WhatsApp e Instagram"],
+            ["💰 Reembolso ágil", "Ajuda com reembolso pela nossa equipe, com protocolo para acompanhar"],
           ].map(([a, b]) => (
             <div key={a}><p className="font-display text-4xl">{a}</p><p className="font-medium">{b}</p></div>
           ))}
